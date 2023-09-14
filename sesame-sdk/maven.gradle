@@ -11,12 +11,13 @@ afterEvaluate {
         }
         repositories {
             maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/CANDY-HOUSE/SesameSDK_Android")
-                credentials {
-                    username = '5019939'
-                    password = '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'
-                }
+//                name = "GitHubPackages"
+//                url = uri("https://maven.pkg.github.com/CANDY-HOUSE/SesameSDK_Android")
+//                credentials {
+//                    username = '5019939'
+//                    password = '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'
+//                }
+                url "${rootProject.rootDir}/docs"
             }
         }
     }
