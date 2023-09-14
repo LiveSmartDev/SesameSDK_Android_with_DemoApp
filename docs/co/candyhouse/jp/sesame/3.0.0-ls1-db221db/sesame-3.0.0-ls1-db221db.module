@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "co.candyhouse.jp",
+    "module": "sesame",
+    "version": "3.0.0-ls1-db221db",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sesame-3.0.0-ls1-db221db.aar",
+          "url": "sesame-3.0.0-ls1-db221db.aar",
+          "size": 373877,
+          "sha512": "3c6b71ef92c0428f50fffbbb47c0e7f621e49ddfb7df94f79f18cd2bc5585cd26b5e288414b8b02031b9ba372679827f421c75cea277e43b3d6a26104a69c8c0",
+          "sha256": "ffd8569cba427073b9b55013990a3b9357a707391705685e822c5392b650c6e5",
+          "sha1": "869a4611224b8fe2c9ca479cf7852ddbc02396ae",
+          "md5": "d5ae624d5993c5c1667845ad54a83fb2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-rxjava2",
+          "version": {
+            "requires": "2.4.3"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sesame-3.0.0-ls1-db221db.aar",
+          "url": "sesame-3.0.0-ls1-db221db.aar",
+          "size": 373877,
+          "sha512": "3c6b71ef92c0428f50fffbbb47c0e7f621e49ddfb7df94f79f18cd2bc5585cd26b5e288414b8b02031b9ba372679827f421c75cea277e43b3d6a26104a69c8c0",
+          "sha256": "ffd8569cba427073b9b55013990a3b9357a707391705685e822c5392b650c6e5",
+          "sha1": "869a4611224b8fe2c9ca479cf7852ddbc02396ae",
+          "md5": "d5ae624d5993c5c1667845ad54a83fb2"
+        }
+      ]
+    }
+  ]
+}

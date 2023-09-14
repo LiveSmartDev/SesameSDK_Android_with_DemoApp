@@ -6,7 +6,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'co.candyhouse.jp'
                 artifactId = 'sesame'
-                version = '2.8.1'
+                version = '3.0.0-ls1-db221db'
             }
         }
         repositories {
