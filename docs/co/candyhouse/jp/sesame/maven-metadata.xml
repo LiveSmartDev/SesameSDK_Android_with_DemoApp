@@ -3,8 +3,8 @@
   <groupId>co.candyhouse.jp</groupId>
   <artifactId>sesame</artifactId>
   <versioning>
-    <latest>3.0.0-ls1-db221db</latest>
-    <release>3.0.0-ls1-db221db</release>
+    <latest>3.0.0-ls2-40ae43a</latest>
+    <release>3.0.0-ls2-40ae43a</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
@@ -19,7 +19,8 @@
       <version>2.0.7</version>
       <version>3.0.0-ls1-72774dc</version>
       <version>3.0.0-ls1-db221db</version>
+      <version>3.0.0-ls2-40ae43a</version>
     </versions>
-    <lastUpdated>20230919004407</lastUpdated>
+    <lastUpdated>20250405000258</lastUpdated>
   </versioning>
 </metadata>
