@@ -51,3 +51,10 @@ dependencies {
     implementation 'co.candyhouse.jp:sesame:2.0.7@aar'
 }
 ```
+
+## how to build
+
+run the following command, and push artifact to remote repository.
+```
+./gradlew publishReleasePublicationToMavenRepository
+```
